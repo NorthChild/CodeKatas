@@ -11,10 +11,8 @@ namespace ReturnStringWithNoVowels
             // write a method, takes a string and remove the vowels and return the string without the vowels 
 
             var testString = "i am a test string, i dont have much to say about myself, being a string is hard!";
-
             Console.WriteLine(Disemvowelling(testString));
         }
-
 
         public static string Disemvowelling(string stringToCheck) 
         {
