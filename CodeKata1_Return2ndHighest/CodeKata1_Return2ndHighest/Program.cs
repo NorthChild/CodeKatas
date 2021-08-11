@@ -27,8 +27,6 @@ namespace CodeAlongTest_TrainerNishant
             {
                 throw new ArgumentOutOfRangeException("Mmmmh this array seems to be empty");
             }
-            
-            //var res = array.OrderByDescending(c => c);
 
             // create a new list that will store only the non-repeting elements of the original list
             List<int> noDuplicates = new List<int>();
