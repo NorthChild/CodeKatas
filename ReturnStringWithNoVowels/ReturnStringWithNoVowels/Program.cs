@@ -8,22 +8,33 @@ namespace ReturnStringWithNoVowels
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             // write a method, takes a string and remove the vowels and return the string without the vowels 
 
-            // a e i o u 
-
-            var testString = " ";
+            var testString = "i am a test string, i dont have much to say about myself, being a string is hard!";
 
 
+            Console.WriteLine(Disemvowelling(testString));
         }
 
 
-        public static string Disemvowelling(string testString) 
+        public static string Disemvowelling(string stringToCheck) 
         {
+
+            var loweredString = stringToCheck.ToLower();
+
+            var disemvowelledString = "";
+
+            foreach (var element in loweredString)
+            {
+                if (!element.Equals('a') && !element.Equals('e') && !element.Equals('i') && !element.Equals('o') && !element.Equals('u'))
+                {
+                    disemvowelledString += element;
+                }
+            }
+
             
 
-            return "";
+            return disemvowelledString;
         }
 
 
