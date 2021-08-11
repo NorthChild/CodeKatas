@@ -17,8 +17,6 @@ namespace CodeAlongTest_TrainerNishant
             Console.WriteLine(return2ndHighest(arrayToTest));
         }
 
-
-
         public static int return2ndHighest(int[] array)
         {
 
@@ -46,10 +44,6 @@ namespace CodeAlongTest_TrainerNishant
             // this way we know that the the second element (index 1) will store the second highest value int 
             var result = noDuplicates.OrderByDescending(c => c);
             return result.ElementAt(1);
-
-
-
-
         }
 
 
