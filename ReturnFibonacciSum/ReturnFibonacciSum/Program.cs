@@ -10,14 +10,14 @@ namespace ReturnFibonacciSum
 
         public static void Main()
         {
-            int number = 1;
+            int number = 34;
             Console.WriteLine(FibonacciSumOfIntsNthIncluded(number));
             //Console.WriteLine(Class1.FibonacciSumOfIntsNthIncludedLITE(number));
+            
         }
         
         public static int FibonacciSumOfIntsNthIncluded(int number)
         {
-
             if (number == 0) return 0;
             if (number < 0) throw new Exception("Number must be positive");   
             
@@ -42,11 +42,11 @@ namespace ReturnFibonacciSum
             while (b <= number)
             {
 
-                // pass the position we just passed 
+                // add the position we just passed 
                 result += b;
                 // calculate next position
                 c = a + b;
-                // move to the next position 
+                // shift to the next position 
                 a = b;
                 // b increases and then returns to be checked
                 b = c;
