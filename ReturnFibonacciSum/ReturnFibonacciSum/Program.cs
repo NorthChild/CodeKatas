@@ -1,14 +1,58 @@
 ﻿using System;
 
+
+
 namespace ReturnFibonacciSum
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
 
-            // Create a method which returns the sum of fibonacci numbers up to the nth fibonacci number, nth number included
+
+        public static void Main()
+        {
+            int number = 1;
+            Console.WriteLine(FibonacciSumOfIntsNthIncluded(number));
+            //Console.WriteLine(Class1.FibonacciSumOfIntsNthIncludedLITE(number));
         }
+        
+        public static int FibonacciSumOfIntsNthIncluded(int number)
+        {
+
+            if (number == 0) return 0;
+            if (number < 0) throw new Exception("Number must be positive");   
+            
+            // create the base to build upon 
+            int result = 0;
+            int a = 1;
+            int b = 1;
+            int c;
+            result += a;
+
+            // nth not included
+            //while (b < number)
+            //{
+
+            //    result += b;
+            //    c = a + b;
+            //    a = b;
+            //    b = c;
+            //}
+
+            // nth included
+            while (b <= number)
+            {
+
+                // pass the position we just passed 
+                result += b;
+                // calculate next position
+                c = a + b;
+                // move to the next position 
+                a = b;
+                // b increases and then returns to be checked
+                b = c;
+            }
+            return result;
+        }
+
     }
 }

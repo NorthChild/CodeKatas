@@ -14,10 +14,10 @@ namespace CodeAlongTest_TrainerNishant
     
             int[] arrayToTest = new int[] { 1, 2, 3, 3, 4, 5, 6, 7, 3, 7, 7 };
 
-            Console.WriteLine(return2ndHighest(arrayToTest));
+            Console.WriteLine(Return2ndHighest(arrayToTest));
         }
 
-        public static int return2ndHighest(int[] array)
+        public static int Return2ndHighest(int[] array)
         {
 
 

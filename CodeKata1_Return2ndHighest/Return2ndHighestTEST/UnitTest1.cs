@@ -23,6 +23,7 @@ namespace Return2ndHighestTEST
             Assert.That(() => Program.return2ndHighest(testArrat), Is.EqualTo(expected));
         }
 
+
         [Test]
         public void FeedingAnEmptyArrayThrowException()
         {
