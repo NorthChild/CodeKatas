@@ -10,10 +10,9 @@ namespace ReturnFibonacciSum
 
         public static void Main()
         {
-            int number = 34;
+            int number = 20;
             Console.WriteLine(FibonacciSumOfIntsNthIncluded(number));
-            //Console.WriteLine(Class1.FibonacciSumOfIntsNthIncludedLITE(number));
-            
+            Console.WriteLine(Class1.FibonacciSumOfIntsNthIncludedLITE(number));
         }
         
         public static int FibonacciSumOfIntsNthIncluded(int number)
@@ -23,10 +22,10 @@ namespace ReturnFibonacciSum
             
             // create the base to build upon 
             int result = 0;
-            int a = 1;
+
+            int a = 0;
             int b = 1;
             int c;
-            result += a;
 
             // nth not included
             //while (b < number)
