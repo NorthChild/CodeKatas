@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateTestsForGivenMethod", "CreateTestsForGivenMethod\CreateTestsForGivenMethod.csproj", "{A42713B6-8761-41FE-8D26-D4275CC82EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingKatas", "TestingKatas\TestingKatas.csproj", "{E6709980-893D-42A7-B8EA-8A175D649AA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A42713B6-8761-41FE-8D26-D4275CC82EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42713B6-8761-41FE-8D26-D4275CC82EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42713B6-8761-41FE-8D26-D4275CC82EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42713B6-8761-41FE-8D26-D4275CC82EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6709980-893D-42A7-B8EA-8A175D649AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6709980-893D-42A7-B8EA-8A175D649AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6709980-893D-42A7-B8EA-8A175D649AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6709980-893D-42A7-B8EA-8A175D649AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D052B31A-EDC3-4A74-9DE6-F5DDDF6D6704}
+	EndGlobalSection
+EndGlobal
