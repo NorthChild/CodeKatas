@@ -46,10 +46,10 @@ namespace TakeAStringAndReverseIt
             if (testString.Length == 0) throw new ArgumentOutOfRangeException("string is empty");
             if (testString.Length == 1) return testString;
 
-            int stringLen = testString.Length - 1;
+            int lastElementPos = testString.Length - 1;
             var resultString = "";
 
-            for (int i = testString.Length - 1; i >= 0; i--)
+            for (int i = lastElementPos; i >= 0; i--)
             {
                 resultString += testString[i];
             }
