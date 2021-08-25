@@ -8,7 +8,6 @@ namespace CreateTestsForGivenMethod
         static void Main(string[] args)
         {
             int[] numArray = { 2, 3, 1, 7, 9, 5, 11, 3, 5 };
-            //int[] numArray = { -2, -3, -1, -7, -9, -5, -11, -3, -5 };
 
             Console.WriteLine($"Original array: {String.Join(", ", numArray)}");
 

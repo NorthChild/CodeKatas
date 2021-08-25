@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKataTripleThreatExercise", "CodeKataTripleThreatExercise\CodeKataTripleThreatExercise.csproj", "{AD2BF29E-F6DA-4993-A4B0-0C59D9529BC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingMyKatas", "TestingMyKatas\TestingMyKatas.csproj", "{4800E8D9-384A-4D66-AA7D-07AD780347D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD2BF29E-F6DA-4993-A4B0-0C59D9529BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2BF29E-F6DA-4993-A4B0-0C59D9529BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2BF29E-F6DA-4993-A4B0-0C59D9529BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2BF29E-F6DA-4993-A4B0-0C59D9529BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4800E8D9-384A-4D66-AA7D-07AD780347D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4800E8D9-384A-4D66-AA7D-07AD780347D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4800E8D9-384A-4D66-AA7D-07AD780347D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4800E8D9-384A-4D66-AA7D-07AD780347D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA9AE1AE-C54D-4E5D-83B9-9337EE3B0333}
+	EndGlobalSection
+EndGlobal
