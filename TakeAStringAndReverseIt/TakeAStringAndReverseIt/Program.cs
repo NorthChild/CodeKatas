@@ -8,7 +8,10 @@ namespace TakeAStringAndReverseIt
         static void Main(string[] args)
         {
 
-            var testString = "This is my string";
+            //var testString = "This is my string";
+
+            Console.WriteLine("Insert a string to reverse: ");
+            var testString = Console.ReadLine();
 
             Console.WriteLine(TakeStringAndReverseIt(testString));
         }
