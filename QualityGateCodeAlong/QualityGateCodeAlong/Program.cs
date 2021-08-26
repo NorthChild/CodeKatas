@@ -10,10 +10,10 @@ namespace QualityGateCodeAlong
         {
             var stringToTest = "Hello";
 
-            Console.WriteLine(ReturnDuplicatesFromArray(stringToTest));
+            Console.WriteLine(ReturnDuplicatesFromString(stringToTest));
         }
 
-        public static char[] ReturnDuplicatesFromArray(string stringToTest)
+        public static char[] ReturnDuplicatesFromString(string stringToTest)
         {
             if (stringToTest.Length < 1)
             {

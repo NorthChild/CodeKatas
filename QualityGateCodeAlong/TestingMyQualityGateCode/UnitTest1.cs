@@ -17,13 +17,13 @@ namespace TestingMyQualityGateCode
         [TestCase("123411156", new char[] { '1' })]
         public void TestThatGivenAStringReturnsDuplicateChars(string testString, char[] expected)
         {
-            Assert.That(() => Program.ReturnDuplicatesFromArray(testString), Is.EqualTo(expected));
+            Assert.That(() => Program.ReturnDuplicatesFromString(testString), Is.EqualTo(expected));
         }
 
         [Test]
         public void TestThatEmptyArrayThrowsException()
         {
-            Assert.That(() => Program.ReturnDuplicatesFromArray(""), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contains("array is empty"));
+            Assert.That(() => Program.ReturnDuplicatesFromString(""), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contains("array is empty"));
         }
     }
 }
