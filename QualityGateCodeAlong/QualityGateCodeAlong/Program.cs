@@ -31,7 +31,13 @@ namespace QualityGateCodeAlong
                 }
                 else
                 {
-                    listOfDups.Add(i);
+                    // this came to mind after the code along 
+                    // added later
+                    if (!listOfDups.Contains(i))
+                    {
+                        listOfDups.Add(i);
+                    }
+                    
                 }
             }
 

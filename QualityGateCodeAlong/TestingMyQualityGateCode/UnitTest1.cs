@@ -12,6 +12,9 @@ namespace TestingMyQualityGateCode
         }
 
         [TestCase ("Hello", new char[] {'l'})]
+        // added these two tests after the code along
+        [TestCase("Helllo", new char[] { 'l' })]
+        [TestCase("123411156", new char[] { '1' })]
         public void TestThatGivenAStringReturnsDuplicateChars(string testString, char[] expected)
         {
             Assert.That(() => Program.ReturnDuplicatesFromArray(testString), Is.EqualTo(expected));
