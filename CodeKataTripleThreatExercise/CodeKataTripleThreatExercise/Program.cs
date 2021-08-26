@@ -40,10 +40,6 @@ namespace CodeKataTripleThreatExercise
             }
             
             
-
-
-            
-            
         }
 
 
@@ -175,7 +171,7 @@ namespace CodeKataTripleThreatExercise
                 return $"Entered character {charToIdentify} is Consonant";
             }
 
-            return " ";
+            //return " ";
         }
 
 
