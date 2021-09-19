@@ -28,7 +28,6 @@ namespace TestingCodeKata3Solution.Happy_Paths
                 Assert.That(Program.GroupByMethod(1234567890), Is.EqualTo("1,234,567,890"));
             }
 
-
             [Test]
             public void GetNegativeIntegersAndReturnGroupedByComma()
             {
