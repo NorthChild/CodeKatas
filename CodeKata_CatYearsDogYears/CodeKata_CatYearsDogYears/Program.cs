@@ -14,11 +14,13 @@ namespace CodeKata_CatYearsDogYears
 
         }
 
-        public static int[] GivenHumanAgeReturnCatDogAge(int humanAge)
+        public static int[] GivenHumanAgeReturnCatDogAge(int humanYears)
         {
-            int[] intArrayTEst = new int[] { };
-            return intArrayTEst;
-            
+            return (humanYears == 1) ? new int[] { 1, 15, 15 } 
+            : (humanYears == 2) ? new int[] { 2, 24, 24 } 
+            : (humanYears > 2) ? new int[] { humanYears, ((humanYears - 2) * 4 + 24), ((humanYears - 2) * 5 + 24) } 
+            : new int[] { 0, 0, 0 };
+
         }
 
 

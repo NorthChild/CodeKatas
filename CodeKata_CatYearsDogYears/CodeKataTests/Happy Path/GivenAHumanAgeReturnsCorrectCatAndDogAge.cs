@@ -27,5 +27,23 @@ namespace CodeKataTests.Happy_Path
         {
             Assert.AreEqual(new int[] { 10, 56, 64 }, Program.GivenHumanAgeReturnCatDogAge(10));
         }
+
+        [Test]
+        public void Fifteen()
+        {
+            Assert.AreEqual(new int[] { 15, 76, 89 }, Program.GivenHumanAgeReturnCatDogAge(15));
+        }
+
+        [Test]
+        public void Negative()
+        {
+            Assert.AreEqual(new int[] { 0, 0, 0 }, Program.GivenHumanAgeReturnCatDogAge(-10));
+        }
+
+        [Test]
+        public void Zero()
+        {
+            Assert.AreEqual(new int[] { 0, 0, 0 }, Program.GivenHumanAgeReturnCatDogAge(0));
+        }
     }
 }
