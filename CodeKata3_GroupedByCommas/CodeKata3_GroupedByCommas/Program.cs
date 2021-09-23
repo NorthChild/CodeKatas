@@ -35,7 +35,6 @@ namespace CodeKata3_GroupedByCommas
             intToString = n.ToString(intToString);
 
             return intToString;
-
         }
 
         public static string ReverseTheIntReadyForCommas(string n)
